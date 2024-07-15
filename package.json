@@ -1,8 +1,7 @@
 {
   "name": "@johngw/outerface",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Typescript static interface",
-  "private": true,
   "type": "module",
   "sideEffects": false,
   "main": "./dist/common/index.cjs",
