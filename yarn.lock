@@ -528,9 +528,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@johngeorgewright/ts-module@workspace:.":
+"@johngw/outerface@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@johngeorgewright/ts-module@workspace:."
+  resolution: "@johngw/outerface@workspace:."
   dependencies:
     "@commitlint/cli": "npm:19.3.0"
     "@commitlint/config-conventional": "npm:19.2.2"
