@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
     "declaration": true,
-    "experimentalDecorators": true,
     "esModuleInterop": true,
     "importHelpers": true,
     "incremental": true,

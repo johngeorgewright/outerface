@@ -13,7 +13,7 @@
     "clean": "rimraf dist",
     "prepare": "husky install",
     "start": "concurrently --names es 'yarn tsc --watch --preserveWatchOutput'",
-    "test": "vitest test"
+    "test": "tsc --project test/tsconfig.json"
   },
   "repository": {
     "type": "git",
@@ -54,8 +54,7 @@
     "semantic-release": "24.0.0",
     "source-map-support": "0.5.21",
     "ts-node": "10.9.2",
-    "typescript": "5.5.3",
-    "vitest": "1.6.0"
+    "typescript": "5.5.3"
   },
   "lint-staged": {
     "*.{md,json,js,jsx,ts,tsx,yml,yaml}": [
