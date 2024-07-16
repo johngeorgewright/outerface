@@ -4,8 +4,6 @@ Create static interfaces for your Typescript classes.
 
 ## Installation
 
-First, make sure to enable decorators in your tsconfig.json.
-
 ```
 npm install @johngw/outerface
 ```
