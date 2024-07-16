@@ -2,6 +2,18 @@
 
 Create static interfaces for your Typescript classes.
 
+## Installation
+
+First, make sure to enable decorators in your tsconfig.json.
+
+```
+npm install @johngw/outerface
+```
+
+## Use
+
+Use the `@outerface` class decorator, with an `Outerface` extended interface to declare your static properties and methods.
+
 ```typescript
 interface ComparableStatic<T> extends Outerface<T> {
   compare(a: T, b: T): number
@@ -22,3 +34,5 @@ class TableCell {
   }
 }
 ```
+
+The `Outerface` interface requires a type parameter that is the instance type of the class.
