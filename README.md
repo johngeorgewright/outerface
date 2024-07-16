@@ -8,7 +8,7 @@ interface ComparableStatic<T> extends Outerface<T> {
 }
 
 @outerface<ComparableStatic<TableCell>>()
-class TableCell implements Comparable {
+class TableCell {
   readonly value: number
 
   constructor(value: number) {
