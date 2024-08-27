@@ -48,7 +48,7 @@ export interface Outerface<T> {
  *   }
  * }
  */
-export function outerface<T>() {
+export function outerface<T extends Outerface<any>>() {
   return (_constructor: T) => {
     //
   }
