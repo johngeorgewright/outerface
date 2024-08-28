@@ -28,7 +28,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@commitlint/cli", "npm:19.4.0"],\
-          ["@commitlint/config-conventional", "npm:19.2.2"],\
+          ["@commitlint/config-conventional", "npm:19.4.1"],\
           ["@commitlint/types", "npm:19.0.3"],\
           ["@semantic-release/commit-analyzer", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:13.0.0"],\
           ["@semantic-release/exec", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:6.0.3"],\
@@ -160,10 +160,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@commitlint/config-conventional", [\
-      ["npm:19.2.2", {\
-        "packageLocation": "./.yarn/cache/@commitlint-config-conventional-npm-19.2.2-2bb85a8bdf-9ee17ba00f.zip/node_modules/@commitlint/config-conventional/",\
+      ["npm:19.4.1", {\
+        "packageLocation": "./.yarn/cache/@commitlint-config-conventional-npm-19.4.1-a710b4b5b3-a1bcee880f.zip/node_modules/@commitlint/config-conventional/",\
         "packageDependencies": [\
-          ["@commitlint/config-conventional", "npm:19.2.2"],\
+          ["@commitlint/config-conventional", "npm:19.4.1"],\
           ["@commitlint/types", "npm:19.0.3"],\
           ["conventional-changelog-conventionalcommits", "npm:7.0.2"]\
         ],\
@@ -451,7 +451,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@johngw/outerface", "workspace:."],\
           ["@commitlint/cli", "npm:19.4.0"],\
-          ["@commitlint/config-conventional", "npm:19.2.2"],\
+          ["@commitlint/config-conventional", "npm:19.4.1"],\
           ["@commitlint/types", "npm:19.0.3"],\
           ["@semantic-release/commit-analyzer", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:13.0.0"],\
           ["@semantic-release/exec", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:6.0.3"],\
