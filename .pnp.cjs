@@ -35,7 +35,7 @@ const RAW_RUNTIME_STATE =
           ["@semantic-release/git", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:10.0.1"],\
           ["@semantic-release/github", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:10.3.5"],\
           ["@semantic-release/release-notes-generator", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:14.0.1"],\
-          ["@types/node", "npm:20.16.5"],\
+          ["@types/node", "npm:20.16.6"],\
           ["@types/semantic-release", "npm:20.0.6"],\
           ["@types/source-map-support", "npm:0.5.10"],\
           ["commitizen", "npm:4.3.0"],\
@@ -457,7 +457,7 @@ const RAW_RUNTIME_STATE =
           ["@semantic-release/git", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:10.0.1"],\
           ["@semantic-release/github", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:10.3.5"],\
           ["@semantic-release/release-notes-generator", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:14.0.1"],\
-          ["@types/node", "npm:20.16.5"],\
+          ["@types/node", "npm:20.16.6"],\
           ["@types/semantic-release", "npm:20.0.6"],\
           ["@types/source-map-support", "npm:0.5.10"],\
           ["commitizen", "npm:4.3.0"],\
@@ -1561,10 +1561,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:20.16.5", {\
-        "packageLocation": "./.yarn/cache/@types-node-npm-20.16.5-fd6c27be3b-39a8457149.zip/node_modules/@types/node/",\
+      ["npm:20.16.6", {\
+        "packageLocation": "./.yarn/cache/@types-node-npm-20.16.6-21657aeb0b-f8a07b1139.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:20.16.5"],\
+          ["@types/node", "npm:20.16.6"],\
           ["undici-types", "npm:6.19.6"]\
         ],\
         "linkType": "HARD"\
@@ -8169,7 +8169,7 @@ const RAW_RUNTIME_STATE =
           ["@tsconfig/node12", "npm:1.0.9"],\
           ["@tsconfig/node14", "npm:1.0.1"],\
           ["@tsconfig/node16", "npm:1.0.2"],\
-          ["@types/node", "npm:20.16.5"],\
+          ["@types/node", "npm:20.16.6"],\
           ["@types/swc__core", null],\
           ["@types/swc__wasm", null],\
           ["@types/typescript", null],\
