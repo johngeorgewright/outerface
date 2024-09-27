@@ -33,7 +33,7 @@ const RAW_RUNTIME_STATE =
           ["@semantic-release/commit-analyzer", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:13.0.0"],\
           ["@semantic-release/exec", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:6.0.3"],\
           ["@semantic-release/git", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:10.0.1"],\
-          ["@semantic-release/github", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:10.3.5"],\
+          ["@semantic-release/github", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:11.0.0"],\
           ["@semantic-release/release-notes-generator", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:14.0.1"],\
           ["@types/node", "npm:20.16.10"],\
           ["@types/semantic-release", "npm:20.0.6"],\
@@ -455,7 +455,7 @@ const RAW_RUNTIME_STATE =
           ["@semantic-release/commit-analyzer", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:13.0.0"],\
           ["@semantic-release/exec", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:6.0.3"],\
           ["@semantic-release/git", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:10.0.1"],\
-          ["@semantic-release/github", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:10.3.5"],\
+          ["@semantic-release/github", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:11.0.0"],\
           ["@semantic-release/release-notes-generator", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:14.0.1"],\
           ["@types/node", "npm:20.16.10"],\
           ["@types/semantic-release", "npm:20.0.6"],\
@@ -1171,13 +1171,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@semantic-release/github", [\
-      ["npm:10.3.5", {\
-        "packageLocation": "./.yarn/cache/@semantic-release-github-npm-10.3.5-04b74ac0bf-4573e0b494.zip/node_modules/@semantic-release/github/",\
-        "packageDependencies": [\
-          ["@semantic-release/github", "npm:10.3.5"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
       ["npm:11.0.0", {\
         "packageLocation": "./.yarn/cache/@semantic-release-github-npm-11.0.0-515fbdec20-a9ffb7eb0c.zip/node_modules/@semantic-release/github/",\
         "packageDependencies": [\
@@ -1214,10 +1207,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:10.3.5", {\
-        "packageLocation": "./.yarn/__virtual__/@semantic-release-github-virtual-99ea087e33/0/cache/@semantic-release-github-npm-10.3.5-04b74ac0bf-4573e0b494.zip/node_modules/@semantic-release/github/",\
+      ["virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:11.0.0", {\
+        "packageLocation": "./.yarn/__virtual__/@semantic-release-github-virtual-fd4f76412a/0/cache/@semantic-release-github-npm-11.0.0-515fbdec20-a9ffb7eb0c.zip/node_modules/@semantic-release/github/",\
         "packageDependencies": [\
-          ["@semantic-release/github", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:10.3.5"],\
+          ["@semantic-release/github", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:11.0.0"],\
           ["@octokit/core", "npm:6.0.1"],\
           ["@octokit/plugin-paginate-rest", "virtual:449b61d5124fdf4b09cedad0b7f42b693b1300174dbe7a6b75a615dcc5d75c5cce2214471b6ac11c1e7fbaa2ad43781a8be97f49b50a4068d8866a27135558ef#npm:11.3.1"],\
           ["@octokit/plugin-retry", "virtual:449b61d5124fdf4b09cedad0b7f42b693b1300174dbe7a6b75a615dcc5d75c5cce2214471b6ac11c1e7fbaa2ad43781a8be97f49b50a4068d8866a27135558ef#npm:7.0.3"],\
