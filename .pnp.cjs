@@ -35,7 +35,7 @@ const RAW_RUNTIME_STATE =
           ["@semantic-release/git", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:10.0.1"],\
           ["@semantic-release/github", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:11.0.1"],\
           ["@semantic-release/release-notes-generator", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:14.0.1"],\
-          ["@types/node", "npm:20.17.6"],\
+          ["@types/node", "npm:22.9.1"],\
           ["@types/semantic-release", "npm:20.0.6"],\
           ["@types/source-map-support", "npm:0.5.10"],\
           ["commitizen", "npm:4.3.1"],\
@@ -51,7 +51,7 @@ const RAW_RUNTIME_STATE =
           ["source-map-support", "npm:0.5.21"],\
           ["ts-node", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:10.9.2"],\
           ["tslib", "npm:2.8.1"],\
-          ["typescript", "patch:typescript@npm%3A5.6.3#optional!builtin<compat/typescript>::version=5.6.3&hash=8c6c40"]\
+          ["typescript", "patch:typescript@npm%3A5.7.2#optional!builtin<compat/typescript>::version=5.7.2&hash=5786d5"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -447,7 +447,7 @@ const RAW_RUNTIME_STATE =
           ["@semantic-release/git", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:10.0.1"],\
           ["@semantic-release/github", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:11.0.1"],\
           ["@semantic-release/release-notes-generator", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:14.0.1"],\
-          ["@types/node", "npm:20.17.6"],\
+          ["@types/node", "npm:22.9.1"],\
           ["@types/semantic-release", "npm:20.0.6"],\
           ["@types/source-map-support", "npm:0.5.10"],\
           ["commitizen", "npm:4.3.1"],\
@@ -463,7 +463,7 @@ const RAW_RUNTIME_STATE =
           ["source-map-support", "npm:0.5.21"],\
           ["ts-node", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:10.9.2"],\
           ["tslib", "npm:2.8.1"],\
-          ["typescript", "patch:typescript@npm%3A5.6.3#optional!builtin<compat/typescript>::version=5.6.3&hash=8c6c40"]\
+          ["typescript", "patch:typescript@npm%3A5.7.2#optional!builtin<compat/typescript>::version=5.7.2&hash=5786d5"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -1530,11 +1530,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:20.17.6", {\
-        "packageLocation": "./.yarn/cache/@types-node-npm-20.17.6-c5a007c486-714b8b5495.zip/node_modules/@types/node/",\
+      ["npm:22.9.1", {\
+        "packageLocation": "./.yarn/cache/@types-node-npm-22.9.1-b841ba9c2c-43fadcb3a9.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:20.17.6"],\
-          ["undici-types", "npm:6.19.6"]\
+          ["@types/node", "npm:22.9.1"],\
+          ["undici-types", "npm:6.19.8"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8108,7 +8108,7 @@ const RAW_RUNTIME_STATE =
           ["@tsconfig/node12", "npm:1.0.9"],\
           ["@tsconfig/node14", "npm:1.0.1"],\
           ["@tsconfig/node16", "npm:1.0.2"],\
-          ["@types/node", "npm:20.17.6"],\
+          ["@types/node", "npm:22.9.1"],\
           ["@types/swc__core", null],\
           ["@types/swc__wasm", null],\
           ["@types/typescript", null],\
@@ -8118,7 +8118,7 @@ const RAW_RUNTIME_STATE =
           ["create-require", "npm:1.1.1"],\
           ["diff", "npm:4.0.2"],\
           ["make-error", "npm:1.3.6"],\
-          ["typescript", "patch:typescript@npm%3A5.6.3#optional!builtin<compat/typescript>::version=5.6.3&hash=8c6c40"],\
+          ["typescript", "patch:typescript@npm%3A5.7.2#optional!builtin<compat/typescript>::version=5.7.2&hash=5786d5"],\
           ["v8-compile-cache-lib", "npm:3.0.1"],\
           ["yn", "npm:3.1.1"]\
         ],\
@@ -8210,10 +8210,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["typescript", [\
-      ["patch:typescript@npm%3A5.6.3#optional!builtin<compat/typescript>::version=5.6.3&hash=8c6c40", {\
-        "packageLocation": "./.yarn/cache/typescript-patch-8964a48ba3-00504c01ee.zip/node_modules/typescript/",\
+      ["patch:typescript@npm%3A5.7.2#optional!builtin<compat/typescript>::version=5.7.2&hash=5786d5", {\
+        "packageLocation": "./.yarn/cache/typescript-patch-aed9e5263d-d75ca10141.zip/node_modules/typescript/",\
         "packageDependencies": [\
-          ["typescript", "patch:typescript@npm%3A5.6.3#optional!builtin<compat/typescript>::version=5.6.3&hash=8c6c40"]\
+          ["typescript", "patch:typescript@npm%3A5.7.2#optional!builtin<compat/typescript>::version=5.7.2&hash=5786d5"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8246,10 +8246,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["undici-types", [\
-      ["npm:6.19.6", {\
-        "packageLocation": "./.yarn/cache/undici-types-npm-6.19.6-9d9ccfb00d-0ea9bc2576.zip/node_modules/undici-types/",\
+      ["npm:6.19.8", {\
+        "packageLocation": "./.yarn/cache/undici-types-npm-6.19.8-9f12285b7a-cf0b48ed4f.zip/node_modules/undici-types/",\
         "packageDependencies": [\
-          ["undici-types", "npm:6.19.6"]\
+          ["undici-types", "npm:6.19.8"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -11305,7 +11305,7 @@ class MountFS extends BasePortableFakeFS {
         if (this.notMount.has(filePath))
           continue;
         try {
-          if (this.typeCheck !== null && (this.baseFs.lstatSync(filePath).mode & fs.constants.S_IFMT) !== this.typeCheck) {
+          if (this.typeCheck !== null && (this.baseFs.statSync(filePath).mode & fs.constants.S_IFMT) !== this.typeCheck) {
             this.notMount.add(filePath);
             continue;
           }
