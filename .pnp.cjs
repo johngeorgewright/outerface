@@ -35,7 +35,7 @@ const RAW_RUNTIME_STATE =
           ["@semantic-release/git", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:10.0.1"],\
           ["@semantic-release/github", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:11.0.1"],\
           ["@semantic-release/release-notes-generator", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:14.0.1"],\
-          ["@types/node", "npm:22.9.4"],\
+          ["@types/node", "npm:22.10.0"],\
           ["@types/semantic-release", "npm:20.0.6"],\
           ["@types/source-map-support", "npm:0.5.10"],\
           ["commitizen", "npm:4.3.1"],\
@@ -447,7 +447,7 @@ const RAW_RUNTIME_STATE =
           ["@semantic-release/git", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:10.0.1"],\
           ["@semantic-release/github", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:11.0.1"],\
           ["@semantic-release/release-notes-generator", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:14.0.1"],\
-          ["@types/node", "npm:22.9.4"],\
+          ["@types/node", "npm:22.10.0"],\
           ["@types/semantic-release", "npm:20.0.6"],\
           ["@types/source-map-support", "npm:0.5.10"],\
           ["commitizen", "npm:4.3.1"],\
@@ -1530,11 +1530,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:22.9.4", {\
-        "packageLocation": "./.yarn/cache/@types-node-npm-22.9.4-f15eaff576-1a30017634.zip/node_modules/@types/node/",\
+      ["npm:22.10.0", {\
+        "packageLocation": "./.yarn/cache/@types-node-npm-22.10.0-21eda01d20-e2561e15ea.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:22.9.4"],\
-          ["undici-types", "npm:6.19.8"]\
+          ["@types/node", "npm:22.10.0"],\
+          ["undici-types", "npm:6.20.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8108,7 +8108,7 @@ const RAW_RUNTIME_STATE =
           ["@tsconfig/node12", "npm:1.0.9"],\
           ["@tsconfig/node14", "npm:1.0.1"],\
           ["@tsconfig/node16", "npm:1.0.2"],\
-          ["@types/node", "npm:22.9.4"],\
+          ["@types/node", "npm:22.10.0"],\
           ["@types/swc__core", null],\
           ["@types/swc__wasm", null],\
           ["@types/typescript", null],\
@@ -8246,10 +8246,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["undici-types", [\
-      ["npm:6.19.8", {\
-        "packageLocation": "./.yarn/cache/undici-types-npm-6.19.8-9f12285b7a-cf0b48ed4f.zip/node_modules/undici-types/",\
+      ["npm:6.20.0", {\
+        "packageLocation": "./.yarn/cache/undici-types-npm-6.20.0-bd21e669af-583ac7bbf4.zip/node_modules/undici-types/",\
         "packageDependencies": [\
-          ["undici-types", "npm:6.19.8"]\
+          ["undici-types", "npm:6.20.0"]\
         ],\
         "linkType": "HARD"\
       }]\
