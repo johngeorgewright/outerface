@@ -37,7 +37,7 @@ const RAW_RUNTIME_STATE =
           ["@semantic-release/git", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:10.0.1"],\
           ["@semantic-release/github", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:11.0.3"],\
           ["@semantic-release/release-notes-generator", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:14.0.3"],\
-          ["@types/node", "npm:22.15.21"],\
+          ["@types/node", "npm:22.15.23"],\
           ["@types/semantic-release", "npm:20.0.6"],\
           ["@types/source-map-support", "npm:0.5.10"],\
           ["commitizen", "npm:4.3.1"],\
@@ -449,7 +449,7 @@ const RAW_RUNTIME_STATE =
           ["@semantic-release/git", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:10.0.1"],\
           ["@semantic-release/github", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:11.0.3"],\
           ["@semantic-release/release-notes-generator", "virtual:acd80dfb55b0a080569322de227de6e1f7b571c4bbaeb0f21cd17b912e1f9dbdf62dfc14f6b0b11646263c7f512af2c5059a0354f9951a1bdca98392da8b9e87#npm:14.0.3"],\
-          ["@types/node", "npm:22.15.21"],\
+          ["@types/node", "npm:22.15.23"],\
           ["@types/semantic-release", "npm:20.0.6"],\
           ["@types/source-map-support", "npm:0.5.10"],\
           ["commitizen", "npm:4.3.1"],\
@@ -1687,10 +1687,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:22.15.21", {\
-        "packageLocation": "./.yarn/cache/@types-node-npm-22.15.21-a4f238de1a-cb4189587c.zip/node_modules/@types/node/",\
+      ["npm:22.15.23", {\
+        "packageLocation": "./.yarn/cache/@types-node-npm-22.15.23-affc372fef-1e121e0232.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:22.15.21"],\
+          ["@types/node", "npm:22.15.23"],\
           ["undici-types", "npm:6.21.0"]\
         ],\
         "linkType": "HARD"\
@@ -8296,7 +8296,7 @@ const RAW_RUNTIME_STATE =
           ["@tsconfig/node12", "npm:1.0.9"],\
           ["@tsconfig/node14", "npm:1.0.1"],\
           ["@tsconfig/node16", "npm:1.0.2"],\
-          ["@types/node", "npm:22.15.21"],\
+          ["@types/node", "npm:22.15.23"],\
           ["@types/swc__core", null],\
           ["@types/swc__wasm", null],\
           ["@types/typescript", null],\
