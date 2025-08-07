@@ -44,7 +44,7 @@ const RAW_RUNTIME_STATE =
           ["concurrently", "npm:9.2.0"],\
           ["cz-conventional-changelog", "npm:3.3.0"],\
           ["husky", "npm:9.1.7"],\
-          ["lint-staged", "npm:16.1.2"],\
+          ["lint-staged", "npm:16.1.4"],\
           ["nodemon", "npm:3.1.10"],\
           ["prettier", "npm:3.6.2"],\
           ["renamer", "npm:5.0.2"],\
@@ -466,7 +466,7 @@ const RAW_RUNTIME_STATE =
           ["concurrently", "npm:9.2.0"],\
           ["cz-conventional-changelog", "npm:3.3.0"],\
           ["husky", "npm:9.1.7"],\
-          ["lint-staged", "npm:16.1.2"],\
+          ["lint-staged", "npm:16.1.4"],\
           ["nodemon", "npm:3.1.10"],\
           ["prettier", "npm:3.6.2"],\
           ["renamer", "npm:5.0.2"],\
@@ -3031,11 +3031,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:b98c92e9a97c290d4bedc1a80e174b486214a670927acbd652fe026ed62eee1f166d98b1ece67ebf92c16f518d38e6bb64172eea6a1497fa9276cecba1978ffc#npm:4.4.1", {\
-        "packageLocation": "./.yarn/__virtual__/debug-virtual-cf231d69c0/0/cache/debug-npm-4.4.1-6eab84b9f7-8e2709b214.zip/node_modules/debug/",\
+      ["virtual:fbe673094c97f13edfcd3119c5c989fffb539e0698913a5b74e1c929cd3fc154bfe1d892244361c6728479fdc45c806f345a370aa6c5a319e8e64c3fc2f75e64#npm:4.4.1", {\
+        "packageLocation": "./.yarn/__virtual__/debug-virtual-12e263df4f/0/cache/debug-npm-4.4.1-6eab84b9f7-8e2709b214.zip/node_modules/debug/",\
         "packageDependencies": [\
           ["@types/supports-color", null],\
-          ["debug", "virtual:b98c92e9a97c290d4bedc1a80e174b486214a670927acbd652fe026ed62eee1f166d98b1ece67ebf92c16f518d38e6bb64172eea6a1497fa9276cecba1978ffc#npm:4.4.1"],\
+          ["debug", "virtual:fbe673094c97f13edfcd3119c5c989fffb539e0698913a5b74e1c929cd3fc154bfe1d892244361c6728479fdc45c806f345a370aa6c5a319e8e64c3fc2f75e64#npm:4.4.1"],\
           ["ms", "npm:2.1.3"],\
           ["supports-color", null]\
         ],\
@@ -5089,15 +5089,15 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["lint-staged", [\
-      ["npm:16.1.2", {\
-        "packageLocation": "./.yarn/cache/lint-staged-npm-16.1.2-b98c92e9a9-90df77c2f5.zip/node_modules/lint-staged/",\
+      ["npm:16.1.4", {\
+        "packageLocation": "./.yarn/cache/lint-staged-npm-16.1.4-fbe673094c-71330be72e.zip/node_modules/lint-staged/",\
         "packageDependencies": [\
           ["chalk", "npm:5.4.1"],\
           ["commander", "npm:14.0.0"],\
-          ["debug", "virtual:b98c92e9a97c290d4bedc1a80e174b486214a670927acbd652fe026ed62eee1f166d98b1ece67ebf92c16f518d38e6bb64172eea6a1497fa9276cecba1978ffc#npm:4.4.1"],\
+          ["debug", "virtual:fbe673094c97f13edfcd3119c5c989fffb539e0698913a5b74e1c929cd3fc154bfe1d892244361c6728479fdc45c806f345a370aa6c5a319e8e64c3fc2f75e64#npm:4.4.1"],\
           ["lilconfig", "npm:3.1.3"],\
-          ["lint-staged", "npm:16.1.2"],\
-          ["listr2", "npm:8.3.3"],\
+          ["lint-staged", "npm:16.1.4"],\
+          ["listr2", "npm:9.0.1"],\
           ["micromatch", "npm:4.0.8"],\
           ["nano-spawn", "npm:1.0.2"],\
           ["pidtree", "npm:0.6.0"],\
@@ -5108,13 +5108,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["listr2", [\
-      ["npm:8.3.3", {\
-        "packageLocation": "./.yarn/cache/listr2-npm-8.3.3-378fa43619-92f1bb60e9.zip/node_modules/listr2/",\
+      ["npm:9.0.1", {\
+        "packageLocation": "./.yarn/cache/listr2-npm-9.0.1-6f1beb3bb9-ac5f98317f.zip/node_modules/listr2/",\
         "packageDependencies": [\
           ["cli-truncate", "npm:4.0.0"],\
           ["colorette", "npm:2.0.20"],\
           ["eventemitter3", "npm:5.0.1"],\
-          ["listr2", "npm:8.3.3"],\
+          ["listr2", "npm:9.0.1"],\
           ["log-update", "npm:6.1.0"],\
           ["rfdc", "npm:1.4.1"],\
           ["wrap-ansi", "npm:9.0.0"]\
@@ -8253,7 +8253,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/tuf-js-npm-3.0.1-9135d15fbd-880219a55e.zip/node_modules/tuf-js/",\
         "packageDependencies": [\
           ["@tufjs/models", "npm:3.0.1"],\
-          ["debug", "virtual:b98c92e9a97c290d4bedc1a80e174b486214a670927acbd652fe026ed62eee1f166d98b1ece67ebf92c16f518d38e6bb64172eea6a1497fa9276cecba1978ffc#npm:4.4.1"],\
+          ["debug", "virtual:fbe673094c97f13edfcd3119c5c989fffb539e0698913a5b74e1c929cd3fc154bfe1d892244361c6728479fdc45c806f345a370aa6c5a319e8e64c3fc2f75e64#npm:4.4.1"],\
           ["make-fetch-happen", "npm:14.0.3"],\
           ["tuf-js", "npm:3.0.1"]\
         ],\
