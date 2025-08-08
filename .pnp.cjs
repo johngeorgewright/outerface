@@ -44,7 +44,7 @@ const RAW_RUNTIME_STATE =
           ["concurrently", "npm:9.2.0"],\
           ["cz-conventional-changelog", "npm:3.3.0"],\
           ["husky", "npm:9.1.7"],\
-          ["lint-staged", "npm:16.1.4"],\
+          ["lint-staged", "npm:16.1.5"],\
           ["nodemon", "npm:3.1.10"],\
           ["prettier", "npm:3.6.2"],\
           ["renamer", "npm:5.0.2"],\
@@ -466,7 +466,7 @@ const RAW_RUNTIME_STATE =
           ["concurrently", "npm:9.2.0"],\
           ["cz-conventional-changelog", "npm:3.3.0"],\
           ["husky", "npm:9.1.7"],\
-          ["lint-staged", "npm:16.1.4"],\
+          ["lint-staged", "npm:16.1.5"],\
           ["nodemon", "npm:3.1.10"],\
           ["prettier", "npm:3.6.2"],\
           ["renamer", "npm:5.0.2"],\
@@ -2272,6 +2272,13 @@ const RAW_RUNTIME_STATE =
           ["chalk", "npm:5.4.1"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:5.5.0", {\
+        "packageLocation": "./.yarn/cache/chalk-npm-5.5.0-cb75d7771a-19f6905b47.zip/node_modules/chalk/",\
+        "packageDependencies": [\
+          ["chalk", "npm:5.5.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["chalk-template", [\
@@ -3017,13 +3024,13 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:a345fb10767f7507bb836583037bd0538e45be4c0b7d01b378c28de2575623867b926ab06543de0e9efc893338034a56314289b227582d36e15650769aac23d1#npm:4.3.4", {\
-        "packageLocation": "./.yarn/__virtual__/debug-virtual-b43659aab2/0/cache/debug-npm-4.3.4-4513954577-0073c3bcbd.zip/node_modules/debug/",\
+      ["virtual:8b8b80d7ecbdc2207121fbf2bd7cd4f019fd89279ea0cd5b731063a37da02dbdf2f8f248e609f0f226c3f86bffe0a55aa761ca106f3e6babab5b61d5224783cf#npm:4.4.1", {\
+        "packageLocation": "./.yarn/__virtual__/debug-virtual-18e3a38d53/0/cache/debug-npm-4.4.1-6eab84b9f7-8e2709b214.zip/node_modules/debug/",\
         "packageDependencies": [\
           ["@types/supports-color", null],\
-          ["debug", "virtual:a345fb10767f7507bb836583037bd0538e45be4c0b7d01b378c28de2575623867b926ab06543de0e9efc893338034a56314289b227582d36e15650769aac23d1#npm:4.3.4"],\
-          ["ms", "npm:2.1.2"],\
-          ["supports-color", "npm:5.5.0"]\
+          ["debug", "virtual:8b8b80d7ecbdc2207121fbf2bd7cd4f019fd89279ea0cd5b731063a37da02dbdf2f8f248e609f0f226c3f86bffe0a55aa761ca106f3e6babab5b61d5224783cf#npm:4.4.1"],\
+          ["ms", "npm:2.1.3"],\
+          ["supports-color", null]\
         ],\
         "packagePeers": [\
           "@types/supports-color",\
@@ -3031,13 +3038,13 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:fbe673094c97f13edfcd3119c5c989fffb539e0698913a5b74e1c929cd3fc154bfe1d892244361c6728479fdc45c806f345a370aa6c5a319e8e64c3fc2f75e64#npm:4.4.1", {\
-        "packageLocation": "./.yarn/__virtual__/debug-virtual-12e263df4f/0/cache/debug-npm-4.4.1-6eab84b9f7-8e2709b214.zip/node_modules/debug/",\
+      ["virtual:a345fb10767f7507bb836583037bd0538e45be4c0b7d01b378c28de2575623867b926ab06543de0e9efc893338034a56314289b227582d36e15650769aac23d1#npm:4.3.4", {\
+        "packageLocation": "./.yarn/__virtual__/debug-virtual-b43659aab2/0/cache/debug-npm-4.3.4-4513954577-0073c3bcbd.zip/node_modules/debug/",\
         "packageDependencies": [\
           ["@types/supports-color", null],\
-          ["debug", "virtual:fbe673094c97f13edfcd3119c5c989fffb539e0698913a5b74e1c929cd3fc154bfe1d892244361c6728479fdc45c806f345a370aa6c5a319e8e64c3fc2f75e64#npm:4.4.1"],\
-          ["ms", "npm:2.1.3"],\
-          ["supports-color", null]\
+          ["debug", "virtual:a345fb10767f7507bb836583037bd0538e45be4c0b7d01b378c28de2575623867b926ab06543de0e9efc893338034a56314289b227582d36e15650769aac23d1#npm:4.3.4"],\
+          ["ms", "npm:2.1.2"],\
+          ["supports-color", "npm:5.5.0"]\
         ],\
         "packagePeers": [\
           "@types/supports-color",\
@@ -5089,20 +5096,20 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["lint-staged", [\
-      ["npm:16.1.4", {\
-        "packageLocation": "./.yarn/cache/lint-staged-npm-16.1.4-fbe673094c-71330be72e.zip/node_modules/lint-staged/",\
+      ["npm:16.1.5", {\
+        "packageLocation": "./.yarn/cache/lint-staged-npm-16.1.5-8b8b80d7ec-02b284f89d.zip/node_modules/lint-staged/",\
         "packageDependencies": [\
-          ["chalk", "npm:5.4.1"],\
+          ["chalk", "npm:5.5.0"],\
           ["commander", "npm:14.0.0"],\
-          ["debug", "virtual:fbe673094c97f13edfcd3119c5c989fffb539e0698913a5b74e1c929cd3fc154bfe1d892244361c6728479fdc45c806f345a370aa6c5a319e8e64c3fc2f75e64#npm:4.4.1"],\
+          ["debug", "virtual:8b8b80d7ecbdc2207121fbf2bd7cd4f019fd89279ea0cd5b731063a37da02dbdf2f8f248e609f0f226c3f86bffe0a55aa761ca106f3e6babab5b61d5224783cf#npm:4.4.1"],\
           ["lilconfig", "npm:3.1.3"],\
-          ["lint-staged", "npm:16.1.4"],\
+          ["lint-staged", "npm:16.1.5"],\
           ["listr2", "npm:9.0.1"],\
           ["micromatch", "npm:4.0.8"],\
           ["nano-spawn", "npm:1.0.2"],\
           ["pidtree", "npm:0.6.0"],\
           ["string-argv", "npm:0.3.2"],\
-          ["yaml", "npm:2.8.0"]\
+          ["yaml", "npm:2.8.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8253,7 +8260,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/tuf-js-npm-3.0.1-9135d15fbd-880219a55e.zip/node_modules/tuf-js/",\
         "packageDependencies": [\
           ["@tufjs/models", "npm:3.0.1"],\
-          ["debug", "virtual:fbe673094c97f13edfcd3119c5c989fffb539e0698913a5b74e1c929cd3fc154bfe1d892244361c6728479fdc45c806f345a370aa6c5a319e8e64c3fc2f75e64#npm:4.4.1"],\
+          ["debug", "virtual:8b8b80d7ecbdc2207121fbf2bd7cd4f019fd89279ea0cd5b731063a37da02dbdf2f8f248e609f0f226c3f86bffe0a55aa761ca106f3e6babab5b61d5224783cf#npm:4.4.1"],\
           ["make-fetch-happen", "npm:14.0.3"],\
           ["tuf-js", "npm:3.0.1"]\
         ],\
@@ -8657,10 +8664,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:2.8.0", {\
-        "packageLocation": "./.yarn/cache/yaml-npm-2.8.0-01747dd315-7d4bd9c10d.zip/node_modules/yaml/",\
+      ["npm:2.8.1", {\
+        "packageLocation": "./.yarn/cache/yaml-npm-2.8.1-b364b3bec4-eae07b3947.zip/node_modules/yaml/",\
         "packageDependencies": [\
-          ["yaml", "npm:2.8.0"]\
+          ["yaml", "npm:2.8.1"]\
         ],\
         "linkType": "HARD"\
       }]\
