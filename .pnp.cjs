@@ -41,7 +41,7 @@ const RAW_RUNTIME_STATE =
           ["@types/semantic-release", "npm:20.0.6"],\
           ["@types/source-map-support", "npm:0.5.10"],\
           ["commitizen", "npm:4.3.1"],\
-          ["concurrently", "npm:9.2.0"],\
+          ["concurrently", "npm:9.2.1"],\
           ["cz-conventional-changelog", "npm:3.3.0"],\
           ["husky", "npm:9.1.7"],\
           ["lint-staged", "npm:16.1.5"],\
@@ -463,7 +463,7 @@ const RAW_RUNTIME_STATE =
           ["@types/semantic-release", "npm:20.0.6"],\
           ["@types/source-map-support", "npm:0.5.10"],\
           ["commitizen", "npm:4.3.1"],\
-          ["concurrently", "npm:9.2.0"],\
+          ["concurrently", "npm:9.2.1"],\
           ["cz-conventional-changelog", "npm:3.3.0"],\
           ["husky", "npm:9.1.7"],\
           ["lint-staged", "npm:16.1.5"],\
@@ -2685,14 +2685,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["concurrently", [\
-      ["npm:9.2.0", {\
-        "packageLocation": "./.yarn/cache/concurrently-npm-9.2.0-bd0cbdf797-fdf5d3b583.zip/node_modules/concurrently/",\
+      ["npm:9.2.1", {\
+        "packageLocation": "./.yarn/cache/concurrently-npm-9.2.1-695cfd169a-2a6b1acbcd.zip/node_modules/concurrently/",\
         "packageDependencies": [\
           ["chalk", "npm:4.1.2"],\
-          ["concurrently", "npm:9.2.0"],\
-          ["lodash", "npm:4.17.21"],\
-          ["rxjs", "npm:7.8.1"],\
-          ["shell-quote", "npm:1.8.1"],\
+          ["concurrently", "npm:9.2.1"],\
+          ["rxjs", "npm:7.8.2"],\
+          ["shell-quote", "npm:1.8.3"],\
           ["supports-color", "npm:8.1.1"],\
           ["tree-kill", "npm:1.2.2"],\
           ["yargs", "npm:17.7.2"]\
@@ -7220,10 +7219,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:7.8.1", {\
-        "packageLocation": "./.yarn/cache/rxjs-npm-7.8.1-41c443a75b-b10cac1a52.zip/node_modules/rxjs/",\
+      ["npm:7.8.2", {\
+        "packageLocation": "./.yarn/cache/rxjs-npm-7.8.2-80ecda9013-03dff09191.zip/node_modules/rxjs/",\
         "packageDependencies": [\
-          ["rxjs", "npm:7.8.1"],\
+          ["rxjs", "npm:7.8.2"],\
           ["tslib", "npm:2.8.1"]\
         ],\
         "linkType": "HARD"\
@@ -7389,10 +7388,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["shell-quote", [\
-      ["npm:1.8.1", {\
-        "packageLocation": "./.yarn/cache/shell-quote-npm-1.8.1-fcccf06093-af19ab5a1e.zip/node_modules/shell-quote/",\
+      ["npm:1.8.3", {\
+        "packageLocation": "./.yarn/cache/shell-quote-npm-1.8.3-b29f851134-5473e35463.zip/node_modules/shell-quote/",\
         "packageDependencies": [\
-          ["shell-quote", "npm:1.8.1"]\
+          ["shell-quote", "npm:1.8.3"]\
         ],\
         "linkType": "HARD"\
       }]\
