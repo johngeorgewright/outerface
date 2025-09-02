@@ -1,6 +1,6 @@
 {
   "name": "@johngw/outerface",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Typescript static interface",
   "type": "module",
   "sideEffects": false,
