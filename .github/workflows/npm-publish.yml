@@ -31,6 +31,9 @@ jobs:
       - name: NPM
         run: npm ci
 
+      - name: Build
+        run: npm run build
+
       - name: Release
         uses: cycjimmy/semantic-release-action@v4
         env:

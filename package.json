@@ -5,12 +5,13 @@
   "type": "module",
   "sideEffects": false,
   "exports": {
-    ".": "./src/index.ts"
+    ".": "./dist/index.js"
   },
   "engines": {
     "node": ">=22.18.0"
   },
   "scripts": {
+    "build": "npm run clean && tsc",
     "clean": "rimraf dist",
     "prepare": "husky install",
     "test": "tsc --project test/tsconfig.json"
@@ -38,6 +39,7 @@
     "husky": "9.1.7",
     "lint-staged": "16.1.5",
     "prettier": "3.6.2",
+    "rimraf": "^6.0.1",
     "typescript": "5.9.2"
   },
   "lint-staged": {
