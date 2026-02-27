@@ -32,9 +32,9 @@
   },
   "homepage": "https://github.com/johngeorgewright/outerface#readme",
   "devDependencies": {
-    "@commitlint/cli": "19.8.1",
-    "@commitlint/config-conventional": "19.8.1",
-    "@commitlint/types": "19.8.1",
+    "@commitlint/cli": "20.4.2",
+    "@commitlint/config-conventional": "20.4.2",
+    "@commitlint/types": "20.4.0",
     "@types/node": "22.19.13",
     "husky": "9.1.7",
     "lint-staged": "16.2.7",
