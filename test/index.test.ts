@@ -4,7 +4,7 @@ interface ComparableStatic<T> extends Outerface<T> {
   compare(a: T, b: T): number
 }
 
-;() => {
+function success() {
   @outerface<ComparableStatic<TableCell>>()
   class TableCell {
     readonly value: number
@@ -17,10 +17,9 @@ interface ComparableStatic<T> extends Outerface<T> {
       return a.value - b.value
     }
   }
-
-  new TableCell(1)
 }
-;() => {
+
+function error() {
   /*
   Argument of type 'typeof TableCell' is not assignable to parameter of type 'ComparableStatic<TableCell>'.
     Property 'compare' is missing in type 'TableCell' but required in type 'Comparable<TableCell>'.
@@ -34,5 +33,4 @@ interface ComparableStatic<T> extends Outerface<T> {
       this.value = value
     }
   }
-  new TableCell(1)
 }
