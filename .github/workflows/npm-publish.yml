@@ -28,7 +28,7 @@ jobs:
     if: needs.publish-release.outputs.pr && !needs.publish-release.outputs.release_created
     uses: ./.github/workflows/test.yml
     with:
-      ref: release-please--branches--master
+      ref: ${{ needs.publish-release.outputs.pr.headBranchName }}
 
   publish-npm:
     needs: [publish-release]
