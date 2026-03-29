@@ -9,33 +9,27 @@ concurrency:
 
 jobs:
   publish-test:
-    uses: ./.github/workflows/pull-request.yml
-    with:
-      build: false
+    uses: ./.github/workflows/test.yml
 
   publish-npm:
     name: NPM
     needs: [publish-test]
     runs-on: ubuntu-latest
+    environment: npm
     steps:
-      - name: Checkout project
-        uses: actions/checkout@v5
+      - uses: actions/checkout@v5
         with:
           token: ${{ secrets.PUSH_TOKEN }}
 
-      - name: Install Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version-file: .nvmrc
 
-      - name: NPM
-        run: npm ci
+      - run: npm ci
 
-      - name: Build
-        run: npm run build
+      - run: npm run build
 
-      - name: Release
-        uses: cycjimmy/semantic-release-action@v4
+      - uses: cycjimmy/semantic-release-action@v4
         env:
           GITHUB_TOKEN: ${{ secrets.PUSH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
