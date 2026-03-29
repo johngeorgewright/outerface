@@ -1,19 +1,33 @@
 name: Publish
 
 on:
-  release:
-    types: [published]
-
-concurrency:
-  group: npm-publish
+  push:
+    branches: [master]
 
 jobs:
+  publish-release:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: publish-release
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+    outputs:
+      release_created: ${{ steps.release.outputs.release_created }}
+      tag_name: ${{ steps.release.outputs.tag_name }}
+    steps:
+      - uses: googleapis/release-please-action@v4
+        id: release
+        with:
+          release-type: node
+
   publish-test:
     uses: ./.github/workflows/test.yml
 
   publish-npm:
-    name: NPM
-    needs: [publish-test]
+    needs: [publish-release, publish-test]
+    if: needs.publish-release.outputs.release_created
     runs-on: ubuntu-latest
     environment: npm
     permissions:
