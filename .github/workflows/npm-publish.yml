@@ -1,43 +1,30 @@
 name: Publish
 
 on:
-  push:
-    branches: [master]
+  release:
+    types: [published]
 
 concurrency:
   group: npm-publish
 
 jobs:
   publish-test:
-    uses: ./.github/workflows/pull-request.yml
-    with:
-      build: false
+    uses: ./.github/workflows/test.yml
 
   publish-npm:
     name: NPM
     needs: [publish-test]
     runs-on: ubuntu-latest
+    environment: npm
+    permissions:
+      contents: read
+      id-token: write
     steps:
-      - name: Checkout project
-        uses: actions/checkout@v5
-        with:
-          token: ${{ secrets.PUSH_TOKEN }}
-
-      - name: Install Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
         with:
           node-version-file: .nvmrc
-
-      - name: NPM
-        run: npm ci
-
-      - name: Build
-        run: npm run build
-
-      - name: Release
-        uses: cycjimmy/semantic-release-action@v4
-        env:
-          GITHUB_TOKEN: ${{ secrets.PUSH_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        with:
-          extra_plugins: '@semantic-release/git'
+          registry-url: 'https://registry.npmjs.org'
+      - run: npm ci
+      - run: npm run build
+      - run: npm publish --provenance --access public
