@@ -16,15 +16,20 @@ jobs:
     outputs:
       release_created: ${{ steps.release.outputs.release_created }}
       tag_name: ${{ steps.release.outputs.tag_name }}
+      pr: ${{ steps.release.outputs.pr }}
     steps:
       - uses: googleapis/release-please-action@v4
         id: release
 
   publish-test:
+    needs: [publish-release]
+    if: needs.publish-release.outputs.pr && !needs.publish-release.outputs.release_created
     uses: ./.github/workflows/test.yml
+    with:
+      ref: release-please--branches--master
 
   publish-npm:
-    needs: [publish-release, publish-test]
+    needs: [publish-release]
     if: needs.publish-release.outputs.release_created
     runs-on: ubuntu-latest
     environment: npm
@@ -36,7 +41,6 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version-file: .nvmrc
-          registry-url: 'https://registry.npmjs.org'
       - run: npm ci
       - run: npm run build
       - run: npm publish --provenance --access public

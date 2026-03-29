@@ -2,6 +2,10 @@ name: Test
 
 on:
   workflow_call:
+    inputs:
+      ref:
+        required: false
+        type: string
 
 jobs:
   test:
@@ -11,6 +15,8 @@ jobs:
         node-version: [22, 24]
     steps:
       - uses: actions/checkout@v6
+        with:
+          ref: ${{ inputs.ref || '' }}
       - uses: actions/setup-node@v6
         with:
           node-version: ${{ matrix.node-version }}
